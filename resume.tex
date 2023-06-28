@@ -65,7 +65,7 @@
   }
 }\vspace{-7pt}
 
-\newcommand{\resumeSubheading}[4]{
+\newcommand{\educationSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
@@ -81,28 +81,10 @@
 }
 
 
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label={$\vcenter{\hbox{\tiny$\bullet$}}$}]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \newcommand{\freelanceListStart}{\begin{itemize}[label={}]}
@@ -211,7 +193,7 @@
 
 \section{Education}
   \resumeSubHeadingListStart
-    \resumeSubheading
+    \educationSubheading
       {Royal Melbourne Institute of Technology}{Melbourne, Australia}
       {Bachelor of Engineering (Electronic), Honors Class 2a}{Mar. 2000 -- May 2004}
   \resumeSubHeadingListEnd
