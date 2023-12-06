@@ -1,0 +1,2 @@
+mkdir -p ./out
+pdflatex -output-directory ./out resume.tex && evince ./out/resume.pdf
